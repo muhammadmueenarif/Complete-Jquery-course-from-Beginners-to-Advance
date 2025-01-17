@@ -1,9 +1,5 @@
 $(document).ready(function(){
-    $('#animate-btn').click(function () {
-        $('#target-box').animate({
-            opacity: 0.5,
-            marginLeft: '50px',
-            fontSize:'24px'
-        }, 1000);
-    }) 
+    $('h1').css('color', '#3498db');
+    $('.highlight').fadeIn(2000);
+    $('ul li:selected').css('background-color', '#2ecc71');
 });

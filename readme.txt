@@ -13,3 +13,4 @@ first lecture basic syntax
 second is selectors
 third is event methods
 hide and show.
+fading

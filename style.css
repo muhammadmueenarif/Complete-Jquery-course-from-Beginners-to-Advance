@@ -7,11 +7,14 @@ body {
     background-color: #f7f6f6;
 }
 
-.continer {
-    text-align: center;
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.highlight {
-    color: #e74c3c;
+#result {
+    margin-top: 20px;
+    font-size: 18px;
     font-weight: bold;
 }

@@ -9,3 +9,6 @@ it is easy to use just download one single file and save in folder and use.
 we can create separate js file and use jquery there or use script tag just like normal javascript we use in 
 html and then use it in html file. 
 
+first lecture basic syntax
+second is selectors
+third is event methods

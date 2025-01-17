@@ -14,3 +14,4 @@ second is selectors
 third is event methods
 hide and show.
 fading
+sliding

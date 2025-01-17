@@ -14,10 +14,11 @@ button {
     cursor: pointer;
 }
 
-#fading-element {
+#sliding-element {
     margin-top: 20px;
     padding: 20px;
-    background-color: #3498db;
+    background-color: brown;
     color: white;
     text-align: center;
+    display: none;
 }

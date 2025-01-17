@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    $('#fade-in-btn').click(function () {
-        $('#fading-element').fadeIn(1000);
+    $('#slide-down-btn').click(function () {
+        $('#sliding-element').slideDown(1000);
     })
 
-    $('#fade-out-btn').click(function () {
-        $('#fading-element').fadeOut(1000);
+    $('#slide-up-btn').click(function () {
+        $('#sliding-element').slideUp(1000);
     })
 
 });

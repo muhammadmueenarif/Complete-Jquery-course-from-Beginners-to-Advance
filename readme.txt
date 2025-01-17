@@ -15,3 +15,4 @@ third is event methods
 hide and show.
 fading
 sliding
+stop animation

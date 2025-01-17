@@ -1,10 +1,19 @@
 $(document).ready(function(){
-    $('#slide-down-btn').click(function () {
-        $('#sliding-element').slideDown(1000);
+    
+    let animationInterval;
+
+    $('#start-btn').click(function () {
+        $('#animated-element').fadeIn(1000);
+
+        animationInterval = setInterval(function () {
+            $('#animated-element').animate({
+                left: '+=50px'
+            }, 500)
+        }, 500)
     })
 
-    $('#slide-up-btn').click(function () {
-        $('#sliding-element').slideUp(1000);
+    $('#stop-btn').click(function () {
+        clearInterval(animationInterval);
+        $('#animated-element').fadeOut(1000);
     })
-
 });

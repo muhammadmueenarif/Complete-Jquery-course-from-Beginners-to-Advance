@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    $('#hover-btn').mouseenter(function () {
-        $('#result').text('you hovered over the button');
+    $('#hide-btn').click(function () {
+        $('#target-element').hide(1000);
     })
 
-    $('#hover-btn').mouseenter(function () {
-        $('#result').text('enter result will show here');
+    $('#show-btn').click(function () {
+        $('#target-element').show(1000);
     })
 
 });

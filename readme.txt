@@ -12,3 +12,4 @@ html and then use it in html file.
 first lecture basic syntax
 second is selectors
 third is event methods
+hide and show.

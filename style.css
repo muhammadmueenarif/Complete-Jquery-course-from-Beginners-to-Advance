@@ -8,13 +8,16 @@ body {
 }
 
 button {
+    margin:  0 10px;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
 }
 
-#result {
+#target-element {
     margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
 }

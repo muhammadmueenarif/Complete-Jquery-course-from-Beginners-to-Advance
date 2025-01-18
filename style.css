@@ -7,7 +7,7 @@ body {
     background-color: #8e44ad;
 }
 
-.grandParent {
+.grandParent, .parent, .child {
     padding: 20px;
     margin: 10px;
     background-color: #2ecc71;

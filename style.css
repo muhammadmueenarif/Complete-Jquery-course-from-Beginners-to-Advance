@@ -7,16 +7,17 @@ body {
     background-color: #f7f6f6;
 }
 
-#contentContainer {
+#container {
     text-align: center;
-    padding: 20px;
-    background-color: #3498db;
     color: #fff;
 }
 
-#magicBox {
-    width: 150px;
-    height: 150px;
-    background-color: #2ecc71;
-    margin-top: 20px;
+.parent, .child, .sibling {
+    padding: 20px;
+    background-color: #cc2eb4;
+    margin: 10px;
+}
+
+.parent {
+    border: 2px solid #ffffff;
 }

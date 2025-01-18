@@ -23,3 +23,5 @@ set content and attribute.
 add elements 
 remove elements
 css methods 
+jquery dimensions
+jquery traversing

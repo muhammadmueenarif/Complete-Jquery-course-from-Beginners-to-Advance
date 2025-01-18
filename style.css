@@ -7,18 +7,10 @@ body {
     background-color: #f7f6f6;
 }
 
-button {
-    margin:  0 10px;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#animated-element {
-    margin-top: 20px;
+#box {
     padding: 20px;
-    background-color: brown;
+    background-color: blue;
     color: white;
     text-align: center;
-    display: none;
+    cursor: pointer;
 }

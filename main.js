@@ -1,19 +1,16 @@
-$(document).ready(function(){
-    
-    let animationInterval;
-
-    $('#start-btn').click(function () {
-        $('#animated-element').fadeIn(1000);
-
-        animationInterval = setInterval(function () {
-            $('#animated-element').animate({
-                left: '+=50px'
-            }, 500)
-        }, 500)
-    })
-
-    $('#stop-btn').click(function () {
-        clearInterval(animationInterval);
-        $('#animated-element').fadeOut(1000);
-    })
+$(document).ready(function () {
+  $("#box").hover(
+    function () {
+      $(this).fadeIn(500).animate({  
+            width: "+=50px",
+            height: "+=50px",
+          },500).css("background-color", "#e74c3c");
+    },
+    function () {
+      $(this).fadeOut(500).animate({
+            width: "+=50px",
+            height: "+=50px",
+          },500).css("background-color", "#3498db");
+    }
+  );
 });

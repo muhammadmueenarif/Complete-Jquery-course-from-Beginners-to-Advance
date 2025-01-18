@@ -16,3 +16,4 @@ hide and show.
 fading
 sliding
 stop animation
+chaining

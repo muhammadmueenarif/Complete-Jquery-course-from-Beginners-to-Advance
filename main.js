@@ -1,11 +1,17 @@
 $(document).ready(function () {
-    $('#contentContainer').css('background-color', '#e74c3c')
+    var boxWidth = $('#magicBox').width();
+    var boxHeight = $('#magicBox').height();
 
-    $('#para').css(
-        {
-            'font-size':'24px',
-            'color': '#2ecc71',
-            'font-weight': 'bold'
-        }
-    )
+    $('#contentContainer').append('<p>Box width: ' + boxWidth + 'px</p>');
+    $('#contentContainer').append('<p>Box height: ' + boxHeight + 'px</p>');
+
+    var boxInnerWidth = $('#magicBox').innerWidth();
+    var boxInnerHeight = $('#magicBox').innerHeight();
+
+    $('#contentContainer').append('<p> Box inner width: ' + boxInnerWidth + 'px</p>')
+    $('#contentContainer').append('<p> Box inner height: ' + boxInnerHeight + 'px</p>')
+
+    var boxPosition = $('#magicBox').position();
+    $('#contentContainer').append('<p> Box position - top:' + boxPosition.top + 'px</p>');
+    $('#contentContainer').append('<p> Box position - left:' + boxPosition.left + 'px</p>');
 });

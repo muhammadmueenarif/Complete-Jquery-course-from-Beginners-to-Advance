@@ -14,8 +14,9 @@ body {
     color: #fff;
 }
 
-#para {
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+#magicBox {
+    width: 150px;
+    height: 150px;
+    background-color: #2ecc71;
+    margin-top: 20px;
 }

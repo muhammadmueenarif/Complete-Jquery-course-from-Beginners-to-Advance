@@ -22,3 +22,4 @@ get content and attribute.
 set content and attribute. 
 add elements 
 remove elements
+css methods 

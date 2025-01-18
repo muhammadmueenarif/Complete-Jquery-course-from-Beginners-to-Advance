@@ -1,5 +1,11 @@
 $(document).ready(function () {
-    $('#dynamicList li:last-child').remove();
-    $('#dynamicList li:contains("item 2")').remove();
+    $('#contentContainer').css('background-color', '#e74c3c')
 
+    $('#para').css(
+        {
+            'font-size':'24px',
+            'color': '#2ecc71',
+            'font-weight': 'bold'
+        }
+    )
 });

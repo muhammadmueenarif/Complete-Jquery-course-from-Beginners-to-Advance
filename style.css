@@ -9,16 +9,13 @@ body {
 
 #contentContainer {
     text-align: center;
-    padding: 40px;
-    background-color: #ecf0f1;
-    color: #34495e;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
 }
 
-#dynamicList {
-    list-style: none;
-    padding: 0;
-}
-
-#dynamicList li{
-    margin: 5px 0;
+#para {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }

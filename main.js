@@ -1,8 +1,9 @@
 $(document).ready(function () {
-    $('#sampleText').text('welcome to jquery magic show');
-    $('#contentContainer').append('<p>New content added dynamically</p>');
-    $('#contentContainer h2').html('<em>Updated</em> Heading');
-    $('#sampleImg').attr('alt', 'Updated Image');
-    
+    $('#dynamicList').append('<li>New item</li>');
+
+    var newItemArray = ['item 3', 'item 4', 'item 5'];
+    $.each(newItemArray, function (index, value) {
+        $('#dynamicList').append('<li>' + value + '</li>')
+    });
+    $('#contentContainer').prepend('<h3>Added heading</h3>'); 
 });
-//remember to use your own image

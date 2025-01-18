@@ -7,14 +7,6 @@ body {
     background-color: #f7f6f6;
 }
 
-#box {
-    padding: 20px;
-    background-color: #3498db;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-}
-
 #contentContainer {
     text-align: center;
     padding: 40px;

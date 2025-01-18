@@ -17,3 +17,4 @@ fading
 sliding
 stop animation
 chaining
+jquery callback functions.

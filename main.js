@@ -1,11 +1,11 @@
 $(document).ready(function () {
-  $("#box").click( function () {
-      $(this).fadeOut(500, function () {
-        $(this).animate({
-            width: "+=50px",
-            height: "+=50px"}, 500, function () {
-                $(this).fadeIn(500);
-        })        
-      })    
-    },);
+    let headingText = $('#contentContainer h2').text();
+    console.log('heading text', headingText);
+
+    $('#contentContainer h2').text('Mastering Jquery');
+    let imgUrl  = $('#sampleImg').attr('src');
+    console.log('Image Url:', imgUrl);
+    
+    $('#sampleImg').attr('src', 'img/sample.jpg');
+    
 });

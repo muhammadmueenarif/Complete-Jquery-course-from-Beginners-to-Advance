@@ -18,3 +18,4 @@ sliding
 stop animation
 chaining
 jquery callback functions.
+get content and attribute. 
